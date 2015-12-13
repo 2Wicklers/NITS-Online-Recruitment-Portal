@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^(.+)\.html$ http://localhost/nits_rec/admin/$1 [R,NC]
+RewriteRule ^(.+)\.htm$ http://localhost/nits_rec/admin/$1/ [R,NC]
+RewriteRule ^([^/]+)/$ $1\.php [NC]
+RewriteRule ^(.*)\$ $1.php [NC]

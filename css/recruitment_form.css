@@ -1,0 +1,121 @@
+.form_fields{
+	margin:10px;
+}
+#logo_2{
+	display:none;
+	width:800px;
+}
+#logo_2 img,#logo_2 a{
+	float:left;
+	font-size:20px;
+	color:#000000;
+}
+#logo_print{
+	border-radius:45px;
+	-moz-border-radius:45px;
+	-webkit-border-radius:45px;
+	-o-border-radius:45px;
+	-ms-border-radius:45px;
+	display:block;
+}
+input[type=name],input[type=text],input[type=password],input[type=number],input[type=email],input[type=date]{
+	height:30px;
+	width:400px;
+	margin:5px;
+	border-radius:3px;
+	border:1px solid #B2B2FF;
+	box-shadow:0 0 2px #eee;
+}
+select{
+	height:30px;
+	
+	margin:5px;
+	border-radius:3px;
+	border:1px solid #B2B2FF;
+	box-shadow:0 0 2px #eee;
+}
+
+
+input[type=checkbox]{
+	width:20px;
+	height:20px;
+	border:1px solid #000;
+	cursor:pointer;
+}
+input[type=name]:hover,select:hover,input[type=checkbox]:hover,input[type=text]:hover,input[type=password]:hover,input[type=number]:hover,input[type=email]:hover,textarea:hover{
+	border:1px solid #4D4DFF;
+	box-shadow:0 0 2px #4D4DFF;
+}
+input[type=name]:focus,select:focus,input[type=text]:focus,input[type=password]:focus,input[type=number]:focus,input[type=email]:focus,textarea:focus{
+	border:1px solid #4D4DFF;
+	box-shadow:0 0 2px #4D4DFF;
+}
+input[type=text],input[type=password],input[type=number],input[type=email],input[type=date]{
+	width:200px;
+}
+input[type=number]{
+	width:50px;
+}
+.year_passed,.percentage{
+	text-align:center;
+	width:60px;
+}
+textarea{
+	height:100px;
+	min-height:100px;
+	max-height:100px;
+	width:400px;
+	min-width:400px;
+	max-width:400px;
+	margin:5px;
+	border-radius:3px;
+	border:1px solid #B2B2FF;
+	box-shadow:0 0 2px #eee;
+}
+.year_passed{
+	width:100px;
+}
+.add_pref,.remove_pref{
+	background:url('../images/plus.png') ;
+	width:24px;
+	height:24px;
+	border-radius:12px;
+	cursor:pointer;
+	border:1px solid #55cc55;
+	box-shadow:0 0 1px #eeeeee;
+}
+.remove_pref{
+	background:url('../images/delete.png');
+	border:1px solid #eeeeee;
+}
+.add_pref:hover{
+	box-shadow:0 0 1px #333333;
+}
+
+input[type=submit],button{
+	width:100px;
+	height:30px;
+	background:#B2B2FF;
+	border:1px solid #333;
+	cursor:pointer;
+}
+#save{
+	display:block;
+	margin:0 auto 0 auto;
+	background:url('../images/saveimg.png');
+	border:none;
+	width:40px;
+	height:40px;
+	cursor:pointer;
+}
+.save_div{
+	position:fixed;
+	top:15%;
+	left:2%;
+}
+#logout{
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	margin:0 auto 0 auto;
+}

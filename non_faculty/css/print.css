@@ -1,0 +1,22 @@
+#top{
+	text-indent: 0;
+}
+.save_div,#submit_{
+	visibility:hidden;
+}
+input[type=name],textarea,select,input[type=text],input[type=radio],input[type=checkbox],input[type=password],input[type=number],input[type=email],input[type=date]{
+	border:2px solid black;
+}
+body{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+}
+#logo{
+	display:none;
+}
+#logo_2{
+	display:inline;
+}
+#button_print{
+	display:none;
+}
